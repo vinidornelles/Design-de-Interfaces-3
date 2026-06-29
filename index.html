@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <title>Primeira Guerra Mundial</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/modern-normalize.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <meta name="description"
+    content="Saiba tudo sobre a Primeira Guerra Mundial: causas, contexto histórico, galeria de imagens e muito mais.">
+  <meta name="keywords" content="Primeira Guerra Mundial, história, trincheiras, Tríplice Entente, Tríplice Aliança">
+  <meta name="author" content="Vinicius Dornelles">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Primeira Guerra Mundial">
+  <meta property="og:description"
+    content="Saiba tudo sobre a Primeira Guerra Mundial: causas, contexto histórico, galeria de imagens e muito mais.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/imagem2.jpg">
+  <meta property="og:locale" content="pt_BR">
+</head>
+
+<body>
+
+  <header id="topo">
+    <img src="img/imagem1.avif" alt="Logo">
+    <h1>Primeira Guerra Mundial</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introducao">Introdução</a></li>
+      <li><a href="#causas">Causas</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="#painel">Painel de Fotos</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="introducao">
+      <h2>O que foi a Primeira Guerra Mundial?</h2>
+
+      <p>
+        A Primeira Guerra Mundial foi um grande conflito internacional que ocorreu entre 1914 e 1918, envolvendo
+        principalmente países europeus divididos em dois blocos: a Tríplice Entente e a Tríplice Aliança. A guerra
+        começou após o assassinato do arquiduque Francisco Ferdinando e foi marcada pelo uso de trincheiras, novas
+        tecnologias militares e combates extremamente violentos. Ao final, milhões de pessoas morreram, impérios foram
+        destruídos e o cenário político mundial mudou, contribuindo para o surgimento de novos conflitos, como a Segunda
+        Guerra Mundial.
+      </p>
+
+      <img src="img/imagem2.jpg" alt="Soldados na guerra">
+
+      <h3>Contexto histórico</h3>
+      <p>
+        A Primeira Guerra Mundial ocorreu entre 1914 e 1918 e foi resultado de uma série de tensões acumuladas entre as
+        potências europeias ao longo das décadas anteriores. No início do século XX, a Europa vivia um período de forte
+        nacionalismo, disputas territoriais, rivalidades econômicas e expansão imperialista. Além disso, a formação de
+        alianças militares dividiu os países em dois grandes blocos: a Tríplice Entente e a Tríplice Aliança. O estopim
+        para o conflito foi o assassinato do arquiduque Francisco Ferdinando, herdeiro do trono do Império
+        Austro-Húngaro, em Sarajevo, em 1914, desencadeando uma guerra de escala inédita.
+      </p>
+
+      <img src="img/imagem3.jpg" alt="Trincheiras">
+
+      <a href="#topo">Voltar ao topo</a>
+    </section>
+    <section id="causas">
+      <h2>Causas da Primeira Guerra Mundial</h2>
+      <p>
+        As causas da Primeira Guerra Mundial foram múltiplas e interligadas. O militarismo crescente,
+        o sistema de alianças, o imperialismo e o nacionalismo exacerbado criaram um ambiente de
+        tensão na Europa. O assassinato do arquiduque Francisco Ferdinando foi o gatilho que ativou
+        esse sistema explosivo de alianças em 1914.
+      </p>
+      <a href="#topo">Voltar ao topo</a>
+    </section>
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+
+      <div class="contato-grid">
+        <figure class="contato-figura">
+          <img src="img/imagem8.jpg" alt="Soldado andando">
+          <figcaption>Soldado andando, 1916.</figcaption>
+        </figure>
+
+        <form class="contato-form" action="#" method="post" novalidate>
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div class="campo">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            </div>
+
+            <div class="campo">
+              <label for="nascimento">Data de nascimento</label>
+              <input type="date" id="nascimento" name="nascimento" required>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Seu Interesse</legend>
+
+            <div class="campo">
+              <label for="assunto">Assunto de interesse</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione...</option>
+                <option value="historia">História Geral</option>
+                <option value="guerra">Guerras Mundiais</option>
+                <option value="politica">Política Internacional</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="nivel">Nível de conhecimento</label>
+              <input type="range" id="nivel" name="nivel" min="1" max="5" value="3">
+              <span class="range-labels">
+                <span>Iniciante</span>
+                <span>Avançado</span>
+              </span>
+            </div>
+
+            <div class="campo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."
+                required></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+
+      <a href="#topo">Voltar ao topo</a>
+    </section>
+
+    <section id="painel">
+      <h2>Painel de Fotos</h2>
+
+      <div class="painel-grid">
+        <div class="painel-item painel-destaque">
+          <img src="img/imagem14.jpg" alt="Soldados marchando">
+        </div>
+        <div class="painel-item">
+          <img src="img/imagem9.jpg" alt="Soldados escondidos">
+        </div>
+        <div class="painel-item">
+          <img src="img/imagem10.jpg" alt="Esquadrão de Soldados">
+        </div>
+        <div class="painel-item painel-largo">
+          <img src="img/imagem11.jpg" alt="Soldados correndo">
+        </div>
+        <div class="painel-item">
+          <img src="img/imagem12.jpg" alt="Soldados com maca">
+        </div>
+        <div class="painel-item">
+          <img src="img/imagem13.jpg" alt="Soldados nas trincheiras">
+        </div>
+      </div>
+
+      <a href="#topo">Voltar ao topo</a>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria de Imagens</h2>
+
+      <div class="galeria">
+        <img src="img/imagem4.jpg" alt="Soldados com bandeira">
+        <img src="img/imagem5.webp" alt="Soldados nas trincheiras">
+        <img src="img/imagem6.jpg" alt="Soldados no barro">
+        <img src="img/imagem7.jpg" alt="Soldados nas trincheiras">
+      </div>
+
+      <h3 id="referencias">Referências</h3>
+      <p>Conteúdo baseado em livros de história e materiais educacionais.</p>
+      <ul>
+        <li><a href="https://sme.goiania.go.gov.br/conexaoescola/eaja/historia-a-primeira-guerra-mundial/"
+            target="_blank" rel="noopener noreferrer">SME Goiânia – A Primeira Guerra Mundial</a></li>
+        <li><a href="https://brasilescola.uol.com.br/o-que-e/historia/o-que-e-primeira-guerra-mundial.htm"
+            target="_blank" rel="noopener noreferrer">Brasil Escola – Primeira Guerra Mundial</a></li>
+        <li><a href="https://rachacuca.com.br/educacao/historia/primeira-guerra-mundial/" target="_blank"
+            rel="noopener noreferrer">Racha Cuca – Primeira Guerra Mundial</a></li>
+      </ul>
+
+      <a href="#topo">Voltar ao topo</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Vinicius Dornelles</p>
+  </footer>
+
+</body>
+
+</html>
